@@ -8,12 +8,12 @@ DCN environment
 class DCNEnv(object):
     def __init__(self, rack_num, ):
         self._rack_num = rack_num
-        self.
+
 
 
 class Rack(object):
     def __init__(self):
-        self.
+        pass
 
 def main():
     pass

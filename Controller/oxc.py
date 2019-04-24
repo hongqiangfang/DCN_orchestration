@@ -1,8 +1,8 @@
 import socket
 import sys
 
+
 def oxc_send(message):
-    # print "Creating socket..."
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
     sock.connect(('192.168.108.110', 5025))
     sock.send(message.encode('utf-8'))
